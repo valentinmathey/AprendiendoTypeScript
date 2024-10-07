@@ -1,0 +1,32 @@
+table {
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    border-bottom: 2px solid #495057;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #2c3034;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #3e4348;
+}
+
+tbody td {
+    text-align: center;
+    padding: 12px 10px;
+}
+
+table.table.table-dark {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #f8f9fa;
+}

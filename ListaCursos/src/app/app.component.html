@@ -1,0 +1,12 @@
+<div class="container mt-5 text-center">
+  <h1 class="mb-4">Gestión de Tablas</h1>
+
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <app-tabla-alumnos *ngIf="!cursos"></app-tabla-alumnos>
+      <app-tabla-cursos *ngIf="cursos"></app-tabla-cursos>
+    </div>
+  </div>
+
+  <button class="btn btn-primary mt-4" (click)="handleCambio()">Cambiar de tabla</button>
+</div>
